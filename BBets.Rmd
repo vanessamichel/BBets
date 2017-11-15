@@ -77,3 +77,23 @@ sd(bucket)
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+```{r}
+bucket=numeric()
+for (j in 1:10){
+  
+
+
+brownlow=0
+trials = numeric()
+
+for (i in 1:1137) {
+  a<-buildDY(csize = 29)
+  trials[i] = maxdup(a)
+ 
+}
+
+out <- ifelse(trials>=2,1,-2) 
+bucket[j] <- sum(out)
+}
+```
+
