@@ -39,6 +39,7 @@ maxdup = function(inlist){
 #Profit Estimate
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting!-->
+Unable to run the numbers 1000 times, we will use a sample of 30 to obtain a profit estimate for Brownlow’s betting.
 
 ```{r}
 bucket=numeric()
