@@ -80,7 +80,7 @@ sd(bucket)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
-
+Professor Brownlow is consistently making money or on remaining on the positive end. He could possibly change the class size to a smaller class in order to center his profits on zero. To do this, the class size should be around 29. 
 ```{r}
 bucket=numeric()
 for (j in 1:10){
