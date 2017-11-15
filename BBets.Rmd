@@ -66,6 +66,7 @@ hist(bucket)
 # Confidence interval of Brownlows earning
 
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows-->
+The mean is 505. If using the 68/95 rule, the confidence interval is actually between 400 and 600. The standard deviation is about 34. Therefore, our range is 32 to 36. 
 
 ```{r}
 mean(bucket)
